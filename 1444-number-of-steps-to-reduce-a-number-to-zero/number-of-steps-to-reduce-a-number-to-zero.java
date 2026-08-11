@@ -4,10 +4,10 @@ class Solution {
         int curr = num;
         while(curr > 0){
             if(curr % 2 == 0){
-                curr = curr /2 ;
+                curr /= 2 ;
                 count++;
             }else{
-                curr = curr -1 ;
+                curr -= 1 ;
                 count++;
             }
         }
