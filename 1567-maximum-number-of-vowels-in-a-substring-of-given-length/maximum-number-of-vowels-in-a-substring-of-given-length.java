@@ -1,9 +1,8 @@
 class Solution {
 
     public boolean isvowel(char ch){
-        Set<Character> vowels = Set.of('a', 'e', 'i', 'o', 'u');
-        if(vowels.contains(ch)){
-            return true ;
+        if( ch == 'a' ||  ch =='e'||  ch =='i'||  ch =='o'||  ch =='u'){
+            return true;
         }
         return false;
     }
