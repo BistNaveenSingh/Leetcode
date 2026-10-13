@@ -28,6 +28,6 @@ class Solution {
             return searchBST(root.left, val);
         }
 
-        return root;
+        return null;
     }
 }
