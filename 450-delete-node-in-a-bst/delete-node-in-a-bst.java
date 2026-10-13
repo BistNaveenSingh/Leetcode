@@ -3,7 +3,7 @@ class Solution {
         if(root == null){
             return null;
         }
-        else if(root.val <key){
+        if(root.val <key){
             root.right = deleteNode(root.right,key);
         }else if(root.val > key){
 
